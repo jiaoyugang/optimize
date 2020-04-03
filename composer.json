@@ -1,0 +1,25 @@
+{
+  "type": "library",
+  "name": "kongflower/optimize",
+  "license": "MIT",
+  "keywords": [
+    "OptimisticLocking",
+    "queue"
+  ],
+  "authors": [
+    {
+        "name": "kongflower",
+        "email": "1355528968@qq.com"
+    }
+  ],
+  "description": "性能优化",
+  "require": {
+    "php": ">=7.1",
+    "php-amqplib/php-amqplib":"2.11.1"
+  },
+  "autoload": {
+      "psr-4": {
+          "Optimize\\": "src/"
+      }
+  }
+}
